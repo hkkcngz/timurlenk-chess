@@ -165,7 +165,6 @@ Yeni özellikler veya stratejik bot eklemek isterseniz PR göndermekten çekinme
 
 ### 🙌 Katkı Alanı
 - [ ] 🧑‍💻 Katkıda bulunanlar için özel liste oyun içinde ve `README` dosyasında gösterilecek.
-- [ ] 🏅 Oyunda taş isimlerine veya görsellere katkı sağlayanlar taşın üzerine isimle onurlandırılacak.
 - [ ] 💬 Açılan issue veya pull request’ler katkı olarak sayılacak ve otomatik güncellenecek yapıya bağlanacak.
 
 ---
