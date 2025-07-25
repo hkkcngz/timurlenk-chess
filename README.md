@@ -163,6 +163,14 @@ Yeni özellikler veya stratejik bot eklemek isterseniz PR göndermekten çekinme
 [ ] docs/ klasörüne detaylı oyun kuralları ve örnek senaryolar
 
 
+### 🙌 Katkı Alanı
+- [ ] 🧑‍💻 Katkıda bulunanlar için özel liste oyun içinde ve `README` dosyasında gösterilecek.
+- [ ] 🏅 Oyunda taş isimlerine veya görsellere katkı sağlayanlar taşın üzerine isimle onurlandırılacak.
+- [ ] 💬 Açılan issue veya pull request’ler katkı olarak sayılacak ve otomatik güncellenecek yapıya bağlanacak.
+
+---
+
+Katkı sağlamak isteyen geliştiriciler bu listedeki işaretlenmemiş maddelerden başlayabilir. `README.md` dosyasına isminizi ekleyin veya bir katkı PR'ı açın. 
 
 ---
 
