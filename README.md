@@ -75,6 +75,108 @@ Modern satranca göre daha büyük bir tahta (11x11), farklı taşlar ve kuralla
 Geliştirme süreci devam etmektedir. Eksik taş hareketleri ve görsel iyileştirmeler için katkıda bulunabilirsiniz. 
 Yeni özellikler veya stratejik bot eklemek isterseniz PR göndermekten çekinmeyin.
 
+✅ TODO – Geliştirilecek Özellikler ve İyileştirmeler
+
+🎮 Oyun Mekanikleri
+
+[ ] Tüm taşların özel hareket kurallarının eksiksiz şekilde tanımlanması (getValidMoves genişletmesi)
+
+[ ] Terfi sistemi: Piyon belirli bir noktaya ulaştığında başka taşa dönüşebilmeli
+
+[ ] Saray bölgesine giriş kontrolü: Şah rakip saraya girdiğinde oyun otomatik berabere bitmeli
+
+[ ] Veliaht (Bakan) savunması kuralı: Şah tehdit altındayken bakan hayattaysa şah alınamamalı
+
+[ ] Oyun geçmişi gösterimi (hamle listesi): Sağ veya alt panelde yapılan hamlelerin sıralı listesi
+
+[ ] Hamle geri alma (Undo): Son hamleyi geri alma butonu
+
+
+🤖 Bot Geliştirmeleri
+
+[ ] Şu anki bot yalnızca rastgele hamle yapıyor → Basit seviye stratejik bot geliştir
+
+[ ] Zorluk seviyeleri: Kolay, Orta, Zor
+
+[ ] Minimax algoritması kullanan akıllı bot entegresi
+
+[ ] Botun hamle süresini ayarlayabilme
+
+
+💾 Kayıt & Devam Özellikleri
+
+[x] Oyun durumunu localStorage ile saklama
+
+[ ] Oyun tekrar açıldığında “Kaldığın yerden devam et” özelliği için yüklenme animasyonu
+
+[ ] .json olarak indir / yükle sistemi (oyun durumunu dışa ve içe aktar)
+
+
+🖼 Görsel & UI İyileştirmeleri
+
+[ ] Temalar (klasik, taşlı tahta, Timur dönemi esintili)
+
+[ ] Taşların SVG ikonlarıyla görselleştirilmesi
+
+[ ] Responsive mobil uyumlu tasarım
+
+[ ] Gece modu / gün modu desteği
+
+[ ] Oyun bitiş ekranı (kazanan, süre, toplam hamle sayısı vs. ile)
+
+
+🌐 Çoklu Dil Desteği
+
+[ ] İngilizce, Türkçe, Arapça gibi diller arasında geçiş
+
+[ ] Metinlerin çeviri dosyaları üzerinden yönetilmesi (örneğin lang/tr.json, lang/en.json)
+
+
+🧠 Eğitim & Analiz
+
+[ ] “Nasıl Oynanır?” rehberi ve kurallar görsel anlatımı
+
+[ ] Eğitim modu: taşların nasıl hareket ettiğini anlatan etkileşimli öğretici
+
+[ ] Her taş için örnek hamle gösterme özelliği
+
+[ ] Oyun analiz modu (kimin daha üstün olduğu, hangi taş daha çok etkiliydi vb.)
+
+
+🌐 Çevrimiçi / Çok Oyunculu
+
+[ ] WebSocket ile gerçek zamanlı çok oyunculu destek
+
+[ ] Oda oluştur / katıl sistemine sahip arkadaşla oynama modu
+
+[ ] Sıra-tabanlı (turn-based) e-posta/bağlantı ile oyun gönderimi
+
+
+📁 Proje Yönetimi
+
+[ ] Kodların modüler hale getirilmesi (her taş tipi için ayrı JS modülü)
+
+[ ] Test altyapısı (Jest veya Mocha ile taş hareket testleri)
+
+[ ] GitHub Actions ile otomatik build/test entegrasyonu
+
+[ ] docs/ klasörüne detaylı oyun kuralları ve örnek senaryolar
+
+
+
+---
+
+💡 Katkı Sağlamak İsteyenler İçin
+
+issues sayfasından açık görevleri alabilirsiniz
+
+PR açmadan önce main branch'teki son durumu çektiğinizden emin olun
+
+Yeni taşlar veya kurallar için moves.js dosyasını düzenleyebilirsiniz
+
+Her katkı için kod içinde yorum ve açıklama eklemeye özen gösterin
+
+
 ---
 
 **Lisans:** MIT  
